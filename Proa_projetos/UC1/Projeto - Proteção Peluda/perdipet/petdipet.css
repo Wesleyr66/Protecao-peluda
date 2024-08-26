@@ -1,0 +1,467 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: "Rubik", sans-serif;
+  }
+  body{
+    background: #390040;
+  }
+  
+  main {
+    width: 100%;
+    height: 5000px;
+  }
+  /* barra de pesquisa */
+  header {
+    position: absolute;
+    position: sticky; /* manter barra de pesquisa na tela */
+    top: 0;
+    border: black 1px solid;
+    border-radius: 0px 0px 24px 24px;
+    width: 80%;
+    height: 70px;
+    background-color: white;
+    margin: auto;
+    font-size: 20px;
+    z-index: 2;
+    background-color: #F9EDFF;
+  }
+  
+  #caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  li.navegacao {
+    top: 25px;
+    margin: 0px 12px 0px 12px;
+  }
+  
+  .navegacao a:hover{
+    color: #840694;
+  }
+  
+  .navegacao a:active {
+    background-color: #840694;
+    color: white;
+  }
+  
+  .navegacao a {
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  #logo {
+    left: 25px;
+    width: 102px;
+    height: 42px;
+    top: 15px;
+  }
+  
+  #login {
+    top: 15px;
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 100px;
+    margin: 0px 15px 0px 12px;
+    border-radius: 12px;
+    background-color: #840694;
+    color: #f9edff;
+    transition-duration: 0.5s;
+  }
+  
+  #login:hover {
+    background-color: #f4b625;
+    color: #341c12;
+    transition: 0.5;
+  }
+
+  /* Banner */
+
+  #banner img, #emoji img, #formulario_total img, #whatsapp2 img{
+    width: 100%;
+  }
+  #banner{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #banner_esquerda{
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+    width: 80%;
+    bottom: 45%;
+  }
+  #texto_banner{
+    color: #F4B625;
+    width: 60%;
+    z-index: 1;
+    font-size: 58px;
+    font-weight: 800;
+    letter-spacing: 2.9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #emoji{
+  margin-left: 15px;
+  z-index: 1;
+  float: left;
+  }
+  #banner_direita{
+    left: 70%;
+    position: absolute;
+    border-radius: 47px;
+    width: 25%;
+    height: auto;
+    background-color: #F4B625;
+    z-index: 1;
+    text-align: center;
+  }
+  #banner_direita p{
+    margin: 15px 20px 0px 20px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 178%;  
+    letter-spacing: 0.7px;
+  }
+
+  /* formulario */
+
+  #formulario_topo{
+    position: absolute;
+    width: 100%;
+    top: 90%;
+    z-index: 1;
+    float: left;
+  }
+  #texto_form{
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 5%;
+  }
+  #texto_form p{
+    font-size: 20px;
+  }
+  #formulario_corpo{
+    position: absolute;
+    top: 16.3%;
+    border-radius: 42px;
+    width: 100%;
+    background-color: #F4B625;
+  }
+  #superior{
+    left: 4%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #superior div{
+    margin: 10px 10px 10px 15px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  label,legend{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 149.986%; /* 35.997px */
+    letter-spacing: 1.2px;
+  }
+  input,select{
+    width: 50%;
+    padding: 13px;
+    margin: 15px;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+  }
+  strong{
+    color: red;
+  }
+  #inferior{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #inferior div{
+    width: 40%;  
+  }
+  #whatsapp{
+    width: 100%;
+  }
+  #whatsapp div{
+    width: 100%;
+  }
+  #whatsapp2{
+    width: 90%;
+    background-color: #367A00;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #whatsapp2 p{
+    color: white;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 149.986%; /* 35.997px */
+    letter-spacing: 1.2px;
+  }
+  #whatsapp2 div{
+    width: 60px;
+  }
+  textarea{
+    margin: 0px 40px 50px 0px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #D9D9D9;
+    height: 200px;
+  }
+  #data_hora{
+    right: 2%;
+  }
+
+  hr{
+    width: 90%;
+    left: 5%;
+    height: 4px;
+    background-color: #000000;
+    opacity: 20%;
+  }
+  /*observações adicionais*/
+
+  #conclusao{
+    display: flex;
+    flex-direction: column;
+  } 
+  #conclusao div{
+    display: flex; 
+    align-items: center;
+    justify-content: left;
+  }
+  aside{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    left: 5%;
+    margin-bottom: 2%;
+  }
+  legend{
+    margin: 3% 0% 1% 5%;
+    font-weight: 800;
+  }
+  #enviar{
+    margin-top: 20px;
+  }
+  #enviar button{
+    background-color: #840694;
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  button p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 149.986%; /* 35.997px */
+    letter-spacing: 1.2px;
+  }
+
+  /* Titulos */
+
+  #titulo1{
+    width: 75%;
+    left: 5%;
+    top: 60px;
+  }
+  #titulo1 h1{
+    color: #26547C;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 149.986%;
+    letter-spacing: 3.2px;
+  }
+  #p1{
+    top: 50px;
+    left: 5%;
+    color: #19354F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 149.986%; /* 29.997px */
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.20);
+    width: 90%;
+  }
+
+  /* animais perdidos */
+  #animais_perdidos{
+    position: absolute;
+    margin-top: 10%;
+    z-index: 6;
+    background-color: #F9EDFF;
+    width: 100%;
+    border-radius: 45px;
+    margin-bottom: 10%;
+  }
+  #lua h2{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 149.986%;
+    letter-spacing: 1px;
+    color: #F9EDFF;
+    left: 5%;
+  }
+  #lua{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: #001E39;
+    border-radius: 24px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+  }
+  #lua img{
+    width: 90%;
+    margin: 5%;
+    border-radius: 24px;
+  }
+  #cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #lua p{
+    position: absolute;
+    color: #F4B625;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 149.986%; /* 20.998px */
+    letter-spacing: 0.7px;
+    left: 5%;
+  }
+  #carac{
+    left: 4%;
+    height: auto;
+    margin-top: 45%;
+    width: 92%;
+    border-radius: 12px;
+    background-color: #001221;
+    margin-bottom: 10%;
+  }
+  #carac div{
+    width: 30%;
+    border-radius: 12px;
+    text-align: center;
+    padding: 3px 0px 3px 0px;
+    margin: 5px 0px 5px 5px;
+    float: left;
+  }
+  #gato{
+    background-color: #F4B625;
+    color: white;
+  }
+  #macho{
+    background-color: #0168C2;
+    color: white;
+  }
+  #filhote,#adulto{
+    background-color: #6BFFB8;
+    color: black;
+  }
+  #medio,#pequeno,#grande{
+    background-color: #505050;
+    color: white;
+  }
+  #branco{
+    background-color: white;
+    color: #000;
+  }
+  #docil{
+    background-color: #FF98C9;
+    color: #000;
+  }
+  #brincalhao{
+    background-color: #00B707;
+    color: white;
+  }
+  #femea{
+    background-color: #C20175;
+    color:#F9EDFF;
+  }
+  #cachorro,#marromcor{
+    background-color: #653623;
+    color: white;
+  }
+  #coelho{
+    background-color: #C20101;
+    color: white;
+  }
+  #agitado{
+    background-color: #0011AC;
+    color: white;
+  }
+  #tartaruga{
+    background-color: #1F7700;
+    color: white;
+  }
+  #irritado{
+    background-color: #8E0000;
+    color: white;
+  }
+  #preto{
+    background-color: #000;
+    color: white;
+    border: 2px white solid;
+  }
+  #cinza{
+    color: white;
+    background-color: #292929;
+  }
+  #dourado{
+    background-color: #FF4D00;
+    color: white;
+  }
+  #calmo{
+    background-color: #75BDFF;
+    color: #000;
+  }
+  #protetor{
+    background-color: #00743C;
+    color: white;
+  }
+  #verdecor{
+    background-color: #1F7700;
+    color: white;
+  }
+  #multicolorido{
+    background: linear-gradient(90deg, #131014 0%, #292929 33.33%, #653623 66.67%, #FF4C00 100%);
+    color: white;
+    width: auto;
+  }

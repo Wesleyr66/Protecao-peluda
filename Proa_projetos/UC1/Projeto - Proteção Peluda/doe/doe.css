@@ -1,0 +1,59 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: #ffe45e;
+}
+header {
+  font-family: "Rubik", sans-serif;
+  border: black 1px solid;
+  border-radius: 0px 0px 24px 24px;
+  width: 80%;
+  height: 70px;
+  background-color: white;
+  margin: auto;
+  font-size: 20px;
+}
+
+#caixa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li.navegacao {
+  top: 25px;
+  margin: 0px 12px 0px 12px;
+}
+
+#logo {
+  left: 25px;
+  width: 102px;
+  height: 42px;
+  top: 15px;
+}
+#login {
+  top: 15px;
+  padding-left: 50px;
+  padding-top: 10px;
+  width: 100px;
+  margin: 0px 15px 0px 12px;
+  border-radius: 12px;
+  background-color: #840694;
+  color: #f9edff;
+}

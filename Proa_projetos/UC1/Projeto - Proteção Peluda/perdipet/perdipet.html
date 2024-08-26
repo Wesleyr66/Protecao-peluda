@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" type="imagex/png" href="Imagens/Peludo.png" />
+    <title>Perdi meu Pet</title>
+
+    <link rel="stylesheet" href="petdipet.css" type="text/css">
+</head>
+<body>
+    <main>
+         <!--banner-->
+        <div id="banner">
+                    <div id="banner_esquerda">
+                        <h1 id="texto_banner">Perdi meu Pet <div id="emoji"><img src="Imagens/rosto-triste-em-quadrado-arredondado 1.png"></div></h1>
+                    </div>
+
+                    <div id="banner_direita">
+                        <p>
+                            Perder um animal de
+                            estimação é uma experiência
+                            angustiante, mas você não está
+                            sozinho. Estamos aqui para
+                            ajudar a reunir você com seu
+                            amigo peludo o mais rápido
+                            possível. Nesta página, você
+                            pode reportar um animal
+                            perdido, ver animais encontrados 
+                            recentemente e obter dicas 
+                            sobre o que fazer se perder ou 
+                            encontrar um pet.
+                        </p>
+                    </div>
+                <img src="Imagens/Union.png">
+
+                    <!--Formulario-->
+
+                <div id="formulario_topo">
+                    <img src="Imagens/Union2.png">
+
+                        <h1 id="texto_form">Formulário <br> <p>Reportar um Animal Perdido</p></h1>
+
+                    <div id="formulario_corpo">
+                       <form>
+                        <fieldset>
+                            <section id="superior">
+                                <div>
+                                    <label>Nome do Pet:<strong>*</strong></label>
+                                    <input type="text" name="nome" maxlength="50" size="50" required placeholder="Nome completo aqui...">
+                                </div>
+
+                                <div>
+                                    <label>Espécie:<strong>*</strong></label>
+                                    <select name="opcao">
+                                        <option>Cachorro</option>
+                                        <option>Gato</option>
+                                        <option>Tartaruga</option>            
+                                        <option>Coelho</option>                       
+                                        <option>Passaro</option>
+                                    </select>
+                                </div>
+
+                                <div>
+                                    <label>Raça:<strong>*</strong></label>
+                                    <input type="text" name="raca" maxlength="50" size="50" required placeholder="...">
+                                </div>
+
+                                <div>
+                                    <label>Idade:<strong>*</strong></label>
+                                    <input type="number" name="idade" maxlength="50" size="50" required placeholder="Quantos anos e meses?">
+                                </div>
+                            </section>
+                            <section id="inferior">
+                                <div>
+                                    <label>Descrição Física:<strong>*</strong></label>
+                                    <br /><br>
+                                    <textarea placeholder="(tamanho, cor, características marcantes)" width="10" height="40"></textarea>
+                                </div>
+
+                                <div>
+                                    <label>Último Local Visto:<strong>*</strong></label>
+                                    <br /><br>
+                                    <textarea placeholder="(endereço ou ponto de referência)" width="10" height="40"></textarea>
+                                </div>
+
+                                <div>
+                                    <label>Observações Adicionais:<strong>*</strong></label>
+                                    <br /><br>
+                                    <textarea placeholder="por exemplo, se o animal é amigável outem necessidades especiais" width="10" height="40"></textarea>
+                                </div>
+
+                                <div id="whatsapp">
+                                    <div>
+                                        <label>Data e Hora da Última Aparição:<strong>*</strong></label>
+                                        <br /><br>
+                                        <input id="data_hora" type="text" name="raca" maxlength="50" size="50" required placeholder="Ex: 24/07/2024 - 13h15">
+                                    </div>
+                                    <div>
+                                        <label>Envie uma foto do pet no nosso WhatsApp:</label>
+                                        <br /><br>
+                                        <div id="whatsapp2"><div><img src="Imagens/1384023.png"></div><p>(11) 98765-4321  - Atendimento 24horas</p></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <hr>
+                            <section id="conclusao">
+                                <legend>Observações Adicionais:</legend>
+                                <aside>
+                                    <div>
+                                        <label>Nome Completo:<strong>*</strong></label>
+                                        <input type="text" name="pessoa" maxlength="50" size="50" required placeholder="Seu nome completo aqui...">
+                                    </div>
+
+                                    <div>
+                                        <label>Celular:<strong>*</strong></label>
+                                        <input type="tel" min="0" max="11" required placeholder="(00) 00000-0000"/>
+                                    </div>
+
+                                    <div>
+                                        <label>E-mail:<strong>*</strong></label>
+                                        <input type="email" name="e-mail" maxlength="50" size="50" required placeholder="Seu e-mail aqui..."/>
+                                    </div>
+
+                                    <div id="final">
+                                        <div id="enviar">
+                                            <button class="enviar_form">
+                                                <p>Enviar Formulário</p>
+                                            </button>
+                                        </div>
+                                    </div>   
+                                </aside>
+                            </section>
+                        </fieldset>
+                       </form>
+
+                       <!--animais perdidos-->
+                       <section id="animais_perdidos">
+                        <div id="titulo1"><h1>Animais Perdidos</h1></div>
+                        <p id="p1">
+                            Confira abaixo a lista de animais que estão perdidos na sua região. Se você avistar algum deles, entre 
+                            em contato conosco para que possamos ajudar a reunir o pet com sua família.
+                        </p>
+                        <div id="cards">
+                            <div id="lua">
+                                <div><img src="Imagens/lua.png"></div>
+                                <div><h2>Lua (2 anos)</h2> <br> <p>Desaparecida há 4 dias <br> Vista pela última vez há 1 dia no Jardim Ângela</p> </div>
+                                <br>
+                                <div id="carac">
+                                    <div id="cachorro">Cachorro</div>
+                                    <div id="femea">Fêmea</div>
+                                    <div id="adulto">Adulto</div>
+                                    <div id="grande">Grande</div>
+                                    <div id="branco">Branco</div>
+                                    <div id="multicolorido">Multicolorido</div>
+                                </div>
+                            </div>
+                            <div id="lua">
+                                <div><img src="Imagens/atena.png"></div>
+                                <div><h2>Atena (3 anos)</h2> <br> <p>Desaparecida há 7 dias <br> Sem informações</p> </div>
+                                <br>
+                                <div id="carac">
+                                    <div id="gato">Gato</div>
+                                    <div id="femea">Fêmea</div>
+                                    <div id="adulto">Adulto</div>
+                                    <div id="medio">Médio</div>
+                                    <div id="docil">Dócil</div>
+                                    <div id="multicolorido">Multicolorido</div>
+                                </div>
+                            </div>
+                            <div id="lua">
+                                <div><img src="Imagens/ronald.png"></div>
+                                <div><h2>Brutos (4 anos)</h2> <br> <p>Desaparecida há 6 dias <br> Visto pela última vez no Ibirapuera</p> </div>
+                                <br>
+                                <div id="carac">
+                                    <div id="cachorro">Cachorro</div>
+                                    <div id="macho">Macho</div>
+                                    <div id="adulto">Adulto</div>
+                                    <div id="medio">Médio</div>
+                                    <div id="branco">Branco</div>
+                                    <div id="calmo">Calmo</div>
+                                </div>
+                            </div>
+                            <div id="lua">
+                                <div><img src="Imagens/brutus.png"></div>
+                                <div><h2>Ronald (7 anos)</h2> <br> <p>Desaparecida há 1 dias <br> Visto pela última vez na garagem da residência</p> </div>
+                                <br>
+                                <div id="carac">
+                                    <div id="cachorro">Cachorro</div>
+                                    <div id="macho">Macho</div>
+                                    <div id="adulto">Adulto</div>
+                                    <div id="medio">Médio</div>
+                                    <div id="dourado">Dourado</div>
+                                    <div id="irritado">Irritado</div>
+                                </div>
+                            </div>
+                                                  </section>
+                        </div>
+
+                      <section id="animais_encontrados">
+
+                      </section>
+                    </div>
+                </div>
+        </div>
+
+
+        <!--Barra-->
+        <header>
+            <nav>
+              <ul>
+                <li>
+                  <a href="../home/index.html"
+                    ><img
+                      src="Imagens/logo.png"
+                      id="logo"
+                      alt="Logo Proteção Peluda"
+                  /></a>
+                </li>
+    
+                <div id="caixa">
+                  <li class="navegacao"><a href="../adocao/adocao.html">Adoção</a></li>
+                  <li class="navegacao"><a href="../doe/doe.html">Doe</a></li>
+                  <li class="navegacao resgate-drop"><a href="../resgate/resgate.html">Resgate</a></li>
+                </div>
+    
+                <li id="login">
+                  <a href="#">Login</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+    </main>
+</body>
+</html>
