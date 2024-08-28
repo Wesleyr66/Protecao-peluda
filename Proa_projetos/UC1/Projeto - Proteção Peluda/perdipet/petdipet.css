@@ -29,6 +29,7 @@
     font-size: 20px;
     z-index: 2;
     background-color: #F9EDFF;
+    box-shadow:rgba(0, 0, 0, 0.445) 0px 3px 8px;
   }
   
   #caixa {
@@ -80,6 +81,14 @@
     background-color: #840694;
     color: #f9edff;
     transition-duration: 0.5s;
+    a{
+      color: white;
+      text-align: center;
+      font-weight: 700;
+    }
+    a:hover{
+      color: black;
+    }
   }
   
   #login:hover {
@@ -695,7 +704,17 @@ footer ul{
 #design{
   width: 30%;
 }
+#icon{
+  display: none;
+}
+
 @media only screen and (max-width:700px){
+  #icon {
+    display: inline;
+    height: 60%;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
   #emoji img{
     width: 30%;
   }

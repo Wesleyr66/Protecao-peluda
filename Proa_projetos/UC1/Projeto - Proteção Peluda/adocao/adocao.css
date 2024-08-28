@@ -28,6 +28,7 @@ header {
   font-size: 20px;
   z-index: 2;
   background-color: #F9EDFF;
+  box-shadow:rgba(0, 0, 0, 0.445) 0px 3px 8px;
 }
 
 #caixa {
@@ -79,6 +80,14 @@ li.navegacao {
   background-color: #840694;
   color: #f9edff;
   transition-duration: 0.5s;
+  a{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+  a:hover{
+    color: black;
+  }
 }
 
 #login:hover {
@@ -461,4 +470,160 @@ footer ul{
   align-self: center;
   font-size: 16px;
   margin-bottom: 21px;
+}
+#icon{
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  #icon {
+    display: inline;
+    height: 60%;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  .navegacao{
+    display: none;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+  }
+  .menu{
+    display: block;
+    width: 30px;
+    height: 20px;
+  }
+  nav{
+    height: 100%;
+  }
+  li{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #logo{
+    width: 100px;
+    height: auto;
+    top: 0px;
+  }
+  #login{
+    width: 79px;
+    height: 25px;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    top: 0px;
+  }
+  #logo1{
+    width: 100%;
+    height: auto;
+  }
+  #titulo1 h1{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  #p1{
+    width: 85%;
+    top: 60px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  #titulo2 h1,#titulo3 h1,#titulo4 h1,#titulo5 h1,#titulo6 h1,#titulo7 h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 800;
+  }
+  #p2,#p3,#p4,#p5,#p6,#p7{
+    width: 85%;
+    top: 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  section div{
+    width: 95%;
+    margin-bottom: 10%;
+  }
+  #marrom2 div,#amarelo2 div,#verde2 div,#vermelho2 div{
+    width: 30%;
+  }
+
+  .footer_list1{
+    width: 60vw;
+    align-items:flex-start;
+    text-align: right;
+    margin-left: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .footer_list2{
+    margin-left: 0;
+    align-items:flex-start;
+  }
+  #redes_sociais{
+    margin-left: 0px;
+  }
+
+  #footer_social_media{
+      display: flex;
+  }
+
+  #footer_social_media .footer_link i{
+    font-size: 13px;
+    padding: 5px 7px 0px 0px;
+    margin-top: 1px;
+  }
+
+  .footer_list1, .footer_list2{
+    gap: 10px;
+  }
+
+
+  #footer_content .footer_titulos, #redes_sociais .footer_titulos_redes {
+    font-size: 12px;
+  }
+
+  #footer_content .footer_titulos {
+    font-size: 12px;
+  }
+  .footer_link{
+    font-size: 9px;
+  }
+
+  #redes_sociais .footer_titulos_redes{
+    margin-top: 9px;
+    left: 0%;
+  }
+
+  #footer_logo{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  #footer_logo img{
+    width: 62px;
+    height: auto;
+  }
+
+  #footer_logo p{
+    font-size: 6px;
+  }
+
 }

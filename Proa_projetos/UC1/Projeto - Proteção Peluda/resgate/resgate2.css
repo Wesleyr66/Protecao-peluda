@@ -7,7 +7,7 @@
   color: black;
   font-family: "Rubik", sans-serif;
 }
-body {
+body{
   width: 100%;
 }
 
@@ -27,11 +27,6 @@ header {
   margin: auto;
   font-size: 20px;
   z-index: 2;
-  box-shadow: rgba(0, 0, 0, 0.445) 0px 3px 8px;
-}
-
-#linha1 {
-  width: 60%;
 }
 
 #caixa {
@@ -52,7 +47,7 @@ li.navegacao {
   margin: 0px 12px 0px 12px;
 }
 
-.navegacao a:hover {
+.navegacao a:hover{
   color: #840694;
 }
 
@@ -86,25 +81,21 @@ li.navegacao {
   font-weight: 700;
 }
 
-#login a {
+#login a{
   color: white;
-  text-align: center;
-  font-weight: 700;
 }
 
-#login:hover:hover {
+#login:hover, #login a:hover {
   background-color: #f4b625;
   color: #341c12;
   transition: 0.5;
   font-weight: 700;
 }
-#login a:hover {
-  color: rgb(0, 0, 0);
-}
+
 
 /*Início do conteúdo da página*/
 
-.container {
+.container{
   display: flex;
   flex-wrap: wrap;
   width: 90%;
@@ -113,51 +104,51 @@ li.navegacao {
   margin: 2% 5% 0 5%;
 }
 
-.sessoes_lar_temporarios {
+.sessoes_lar_temporarios{
   width: 100%;
   margin-top: 2%;
   font-family: "Rubik", sans-serif;
   margin-bottom: 2%;
 }
 
-.lar_temporario {
+.lar_temporario{
   height: 13vh;
 }
 
-.titulo_lar_temporario {
+.titulo_lar_temporario{
   color: #840694;
   font-size: 58px;
   font-weight: 900;
 }
 
-.paragrafo_lar_temporario {
+.paragrafo_lar_temporario{
   color: #390040;
   font-size: 20px;
   font-weight: 500;
 }
 
-hr {
+hr{
   width: 100%;
   height: 2px;
   background-color: #000000;
   opacity: 20%;
 }
 
-#linha_maior {
+#linha_maior{
   width: 100%;
   height: 2px;
   background-color: #000000;
   opacity: 20%;
 }
 
-.titulo_cadastro {
+.titulo_cadastro{
   font-size: 36px;
   color: #131014;
   margin-top: 5%;
   font-weight: 900;
 }
 
-.paragrafo_cadastro_lar {
+.paragrafo_cadastro_lar{
   color: #131014;
   font-weight: 500;
   font-size: 20px;
@@ -165,8 +156,8 @@ hr {
   margin-top: 1%;
 }
 
-.formulario_lar {
-  background-color: #f4b625;
+.formulario_lar{
+  background-color: #F4B625;
   padding: 1.5rem 2rem 1.5rem 2rem;
   width: 100%;
   height: auto;
@@ -175,22 +166,22 @@ hr {
   margin-top: 3%;
 }
 
-#teste33 {
+#teste33{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-input {
+input{
   padding: 8px;
   margin: 15px;
   border-radius: 12px;
-  background-color: #d9d9d9;
+  background-color: #D9D9D9;
 }
-#teste33 div {
+#teste33 div{
   margin: 10px 10px 10px 15px;
   font-size: 24px;
 }
-legend {
+legend{
   font-size: 24px;
   font-style: normal;
   margin-top: 35px;
@@ -198,34 +189,34 @@ legend {
   line-height: 149.986%; /* 35.997px */
   letter-spacing: 1.2px;
 }
-label {
+label{
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: 149.986%; /* 35.997px */
   letter-spacing: 1.2px;
 }
-textarea {
+textarea{
   left: 2%;
   width: 90%;
   border-radius: 12px;
-  background-color: #d9d9d9;
+  background-color: #D9D9D9;
   height: 150px;
 }
-#sanimal {
+#sanimal{
   width: 100%;
 }
 
-.area_compromisso {
+.area_compromisso{
   margin: 0 auto;
-  background-color: #f9edff;
+  background-color: #F9EDFF;
   width: 90%;
   height: auto;
   margin-top: 15vh;
   border-radius: 24px;
 }
 
-.condicoes_compromisso {
+.condicoes_compromisso{
   margin-top: 80px;
   width: 100%;
   height: max-content;
@@ -234,57 +225,47 @@ textarea {
   padding: 2.5rem 0;
 }
 
-.todas_condicoes {
+.todas_condicoes{
   text-align: center;
   font-size: 24px;
   font-weight: 500;
   padding: 1rem 0 1rem 0;
 }
 
-#declaro,
-#consentimento {
+#declaro,#consentimento{
   font-size: 24px;
   font-weight: 500;
 }
-#declaracao,
-#consdigital,
-#enviar {
+#declaracao,#consdigital,#enviar{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-#consdigital {
+#consdigital{
   padding-bottom: 5%;
 }
-#enviar button {
+#enviar button{
   background-color: #840694;
   padding: 30px 100px 30px 100px;
   border-radius: 12px;
 }
-
-#enviar button:hover {
-  background-color: #653623;
-  margin-top: 10px;
-}
-
-#final {
+#final{
   margin: 5% 0% 5% 0%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-button p {
+button p{
   color: white;
   font-size: 24px;
   font-weight: 700;
   line-height: 149.986%; /* 35.997px */
   letter-spacing: 1.2px;
 }
-
-#p1 {
+#p1{
   font-family: "rubik";
   font-size: 14px;
   font-style: normal;
@@ -293,8 +274,9 @@ button p {
   letter-spacing: 0.7px;
 }
 
+
 /* rodape */
-footer {
+footer{
   margin-top: 200px;
   width: 100%;
   height: auto;
@@ -303,66 +285,61 @@ footer {
   background-color: #390040;
 }
 
-#footer_content {
+#footer_content{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   text-align: left;
 }
 
-.footer_list1,
-.footer_list2,
-#redes_sociais {
+.footer_list1,.footer_list2, #redes_sociais{
   display: flex;
   flex-direction: column;
   list-style: none;
   margin-left: 120px;
 }
 
-.footer_list1,
-.footer_list2 {
+.footer_list1, .footer_list2{
   gap: 20px;
 }
 
-footer ul {
+footer ul{
   justify-content: unset;
 }
 
-.footer_link {
-  color: #fff;
+.footer_link{
+  color:#fff;
   opacity: 75%;
   font-size: 18px;
   transition: all 0.4s;
   text-align: left;
 }
 
-.footer_list1,
-.footer_list2,
-.footer_link:hover {
-  color: #ffca50;
+.footer_list1, .footer_list2, .footer_link:hover{
+  color: #FFCA50;
 }
 
-.footer_titulos {
+.footer_titulos{
   left: 0;
   margin-top: 44px;
 }
 
-#redes_sociais {
+#redes_sociais{
   margin-left: 30px;
 }
 
-#redes_sociais .footer_titulos_redes {
+#redes_sociais .footer_titulos_redes{
   margin-top: 44px;
   color: #fff;
   font-size: 22px;
   left: 20%;
 }
 
-#footer_social_media .footer_link {
-  display: inline;
+#footer_social_media .footer_link{
+  display:inline;
 }
 
-#footer_social_media .footer_link i {
+#footer_social_media .footer_link i{
   font-size: 40px;
   padding: 20px;
   margin-top: 11px;
@@ -373,113 +350,23 @@ footer ul {
   font-size: 22px;
 }
 
-#footer_logo {
-  justify-content: center;
+#footer_logo{
+  justify-content:center;
   display: flex;
   background-color: #390040;
   text-align: center;
   padding-top: 50px;
 }
 
-#footer_logo img {
+#footer_logo img{
   width: 163.19px;
   margin-bottom: 9px;
 }
 
-#icon {
-  display: none;
-}
-
-#footer_logo p {
+#footer_logo p{
   color: #fff;
   opacity: 80%;
   align-self: center;
   font-size: 16px;
   margin-bottom: 21px;
-}
-
-textarea {
-  padding: 10px;
-}
-
-@media screen and (max-width: 451px) {
-  #caixa {
-    display: none;
-  }
-
-  #login {
-    width: 70px;
-    padding: 0;
-    padding-left: 13px;
-    height: 30px;
-  }
-
-  input p {
-    font-size: 10px;
-  }
-
-  .container {
-    width: 100%;
-    height: auto;
-  }
-  .paragrafo_cadastro_lar {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  #linha1 {
-    margin-top: 100px;
-    width: 80%;
-  }
-
-  .titulo_cadastro {
-    margin-top: 30px;
-  }
-
-  .formulario_lar {
-    width: 70%;
-    display: flex;
-    flex-flow: row wrap;
-    margin: 15px;
-  }
-
-  .larg {
-    width: 200px;
-  }
-  div label {
-    width: 100%;
-  }
-  #teste33 {
-    width: 40%;
-  }
-  .quebra {
-    white-space: nowrap; /*não quebrar linha */
-  }
-
-  #footer_content > ul {
-    font-size: 12px;
-  }
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footer_list1,
-  .footer_list2,
-  #redes_sociais {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-left: 20px;
-    flex-wrap: wrap;
-  }
-
-  #icon {
-    display: inline;
-    height: 60%;
-    margin-top: 13px;
-    margin-left: 10px;
-  }
-
-  .area_compromisso {
-    margin: 0px;
-  }
 }
