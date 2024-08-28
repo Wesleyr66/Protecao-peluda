@@ -13,16 +13,16 @@
   
   main {
     width: 100%;
-    height: 5000px;
+    height: auto;
   }
   /* barra de pesquisa */
   header {
+    width: 80%;
     position: absolute;
     position: sticky; /* manter barra de pesquisa na tela */
     top: 0;
     border: black 1px solid;
     border-radius: 0px 0px 24px 24px;
-    width: 80%;
     height: 70px;
     background-color: white;
     margin: auto;
@@ -129,7 +129,7 @@
   #banner_direita{
     left: 70%;
     position: absolute;
-    border-radius: 47px;
+    border-radius: 42px;
     width: 25%;
     height: auto;
     background-color: #F4B625;
@@ -137,7 +137,7 @@
     text-align: center;
   }
   #banner_direita p{
-    margin: 15px 20px 0px 20px;
+    margin: 5% 7% 5% 7%;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -148,11 +148,15 @@
   /* formulario */
 
   #formulario_topo{
-    position: absolute;
-    width: 100%;
-    top: 90%;
+    width: 90%;
+    height: auto;
+    margin-top: 35%;
+    left: 5%;
     z-index: 1;
     float: left;
+  }
+  #formulario_topo img{
+    width: 100%;
   }
   #texto_form{
     position: absolute;
@@ -168,6 +172,7 @@
     top: 16.3%;
     border-radius: 42px;
     width: 100%;
+    height: auto;
     background-color: #F4B625;
   }
   #superior{
@@ -223,11 +228,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom:20px;
   }
   #whatsapp2 p{
     color: white;
     margin-left: 20px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 149.986%; /* 35.997px */
     letter-spacing: 1.2px;
@@ -295,19 +301,19 @@
 
   /* Titulos */
 
-  #titulo1{
+  #titulo1,#titulo2{
     width: 75%;
     left: 5%;
     top: 60px;
   }
-  #titulo1 h1{
+  #titulo1 h1,#titulo2 h1{
     color: #26547C;
     font-size: 64px;
     font-weight: 900;
     line-height: 149.986%;
     letter-spacing: 3.2px;
   }
-  #p1{
+  #p1,#p2{
     top: 50px;
     left: 5%;
     color: #19354F;
@@ -321,13 +327,13 @@
 
   /* animais perdidos */
   #animais_perdidos{
-    position: absolute;
-    margin-top: 10%;
-    z-index: 6;
+    clear: left;
+    top: 500px;
+    margin-top: 1500px;
+    left: 5%;
     background-color: #F9EDFF;
-    width: 100%;
+    width: 90%;
     border-radius: 45px;
-    margin-bottom: 10%;
   }
   #lua h2{
     font-size: 20px;
@@ -341,6 +347,7 @@
     width: 15%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: #001E39;
     border-radius: 24px;
     margin-top: 8%;
@@ -374,14 +381,16 @@
     border-radius: 12px;
     background-color: #001221;
     margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   #carac div{
-    width: 30%;
+    width: 40%;
     border-radius: 12px;
     text-align: center;
     padding: 3px 0px 3px 0px;
     margin: 5px 0px 5px 5px;
-    float: left;
   }
   #gato{
     background-color: #F4B625;
@@ -463,5 +472,463 @@
   #multicolorido{
     background: linear-gradient(90deg, #131014 0%, #292929 33.33%, #653623 66.67%, #FF4C00 100%);
     color: white;
-    width: auto;
   }
+
+  /* animais encontrados */
+  #animais_encontrados{
+    position: relative;
+    margin-top: 35%;
+    left: 5%;
+    width: 90%;
+    background-color: #F9EDFF;
+    border-radius: 45px;
+  }
+  #titulo2 h1{
+    color: #840694;
+  }
+  #p2{
+    color: #390040;
+    margin-bottom: 6%;
+  }
+  #bichos{
+    left: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #bichos img{
+    width: 80%;
+  }
+  #marrom div,#amarelo div,#vermelho div,#verde div{
+    left: 15%;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 149.986%;
+    letter-spacing: 1px;
+  }
+  #marrom p,#amarelo p,#vermelho p,#verde p{
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    line-height: 149.986%; /* 20.998px */
+    letter-spacing: 0.7px;  
+  }
+  #marrom,#amarelo,#vermelho,#verde,#cinza{
+    width: 21%;
+    border-radius: 21px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  #marrom{
+    background-color: #653623;
+  }
+  #amarelo{
+    background-color: #F4B625;
+  }
+  #vermelho{
+    background-color: #C20101;
+  }
+  #verde{
+    background-color: #1F7700;
+  }
+  #titulo3 h1{
+    color: #390040;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 149.986%; /* 71.993px */
+    letter-spacing: -1.92px;
+  }
+  #p3{
+    color:#390040;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 149.986%; /* 29.997px */
+    letter-spacing: -0.8px;
+  }
+  #cinza{
+    background: rgba(117, 117, 117, 0.20);
+    display: flex;
+    justify-content:  center;
+  }
+
+  /* ajuda*/
+  #ajuda{
+    top: 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    div{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 149.986%; /* 29.997px */
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    }
+    a{
+      text-align: center;
+      margin: auto;
+      width: 20%;
+      padding: 15px;
+      background-color:#840694;
+      color: #F9EDFF;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 149.986%; /* 29.997px */
+      letter-spacing: 1px;
+      border-radius: 12px;
+    }
+  }
+  /* rodape */
+footer{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #F4B625;
+}
+
+#footer_content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  text-align: left;
+}
+
+.footer_list1,.footer_list2, #redes_sociais{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 120px;
+}
+
+.footer_list1, .footer_list2{
+  gap: 20px;
+}
+
+footer ul{
+  justify-content: unset;
+}
+
+.footer_link{
+  color:#fff;
+  opacity: 75%;
+  font-size: 18px;
+  transition: all 0.4s;
+  text-align: left;
+}
+
+.footer_list1, .footer_list2, .footer_link:hover{
+  color: #FFCA50;
+}
+
+.footer_titulos{
+  left: 0;
+  margin-top: 44px;
+}
+
+#redes_sociais{
+  margin-left: 30px;
+}
+
+#redes_sociais .footer_titulos_redes{
+  margin-top: 44px;
+  color: #fff;
+  font-size: 22px;
+}
+
+#footer_social_media .footer_link{
+  display:inline;
+}
+
+#footer_social_media .footer_link i{
+  font-size: 40px;
+  padding: 20px;
+  margin-top: 11px;
+}
+
+#footer_content .footer_titulos {
+  color: #fff;
+  font-size: 22px;
+}
+
+#footer_logo{
+  bottom: 3px;
+  justify-content:center;
+  display: flex;
+  background-color: #F4B625;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#footer_logo img{
+  width: 163.19px;
+  margin-bottom: 9px;
+}
+
+#footer_logo p{
+  color: #fff;
+  opacity: 80%;
+  align-self: center;
+  font-size: 16px;
+  margin-bottom: 21px;
+}
+#design img{
+  width: 100%;
+}
+#design1{
+  z-index: -1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#design{
+  width: 30%;
+}
+@media only screen and (max-width:700px){
+  #emoji img{
+    width: 30%;
+  }
+  #banner{
+    top: 72px;
+  }
+  #texto_banner{
+    width: 100%;
+    bottom: 25px;
+    font-size: 15px;
+  }
+  #banner_direita{
+    width: 29%;
+    border-radius: 10px;
+  }
+  #banner_direita p{
+    font-size: 5px;
+    line-height: 178%; /* 8.9px */
+    letter-spacing: 0.25px;
+  }
+  #caixa{
+    display: none;
+  }
+  header{
+    width: 100%;
+  } 
+  #texto_form{
+    font-size: 20px;
+    left: 0%;
+    p{
+      font-size: 11px;
+    }
+  }
+  label{
+    font-size: 20px;
+  }
+  #inferior div{
+    width: 90%;
+  }
+  #whatsapp div{
+    width: 100%;
+  }
+  #whatsapp2{
+    img{
+      left: 60%;
+      width: 30px;
+    }
+    p{
+      width: 100%;
+      white-space: nowrap;
+      font-size: 10px;
+    }
+    margin-bottom: 20px;
+  }
+  #titulo1 h1,#titulo2 h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #p1,#p2{
+    font-size: 12px;
+  }
+  #animais_perdidos{
+    top: 800px;
+  }
+  #cards{
+    margin-top: 15%;
+    flex-wrap: wrap;
+    #lua{
+      width: 40%;
+    }
+  }
+  #carac{
+    margin-top: 70%;
+  }
+  #animais_encontrados{
+    top: 800px;
+  }
+  #bichos{
+    margin-top: 30%;
+    div{
+      width: 40%;
+      left: 0px;
+      font-size: 12px;
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+  #titulo3{
+    h1{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  #ajuda{
+    margin-top: 800px;
+    a{
+      width: 50%;
+    }
+  }
+  #redes_sociais{
+    display: none;
+  }
+}
+@media only screen and (min-width:701px){
+  @media only screen and (max-width:1050px){
+  #emoji img{
+    width: 50%;
+  }
+  #banner{
+    top: 72px;
+  }
+  #texto_banner{
+    width: 100%;
+    bottom: 25px;
+    font-size: 30px;
+  }
+  #banner_direita{
+    width: 29%;
+    border-radius: 10px;
+  }
+  #banner_direita p{
+    font-size: 10px;
+    line-height: 178%; /* 8.9px */
+    letter-spacing: 0.25px;
+  }
+  header{
+    width: 95%;
+  } 
+  #texto_form{
+    font-size: 35px;
+    left: 7%;
+    p{
+      font-size: 15px;
+    }
+  }
+  label{
+    font-size: 25px;
+  }
+  #inferior div{
+    width: 90%;
+  }
+  #whatsapp div{
+    width: 100%;
+  }
+  #whatsapp2{
+    img{
+      left: 60%;
+      width: 50px;
+    }
+    p{
+      width: 100%;
+      white-space: nowrap;
+      font-size: 20px;
+    }
+    margin-bottom: 20px;
+  }
+  #titulo1 h1,#titulo2 h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  #p1,#p2{
+    font-size: 20px;
+  }
+  #animais_perdidos{
+    top: 1000px;
+  }
+  #cards{
+    margin-top: 10%;
+    flex-wrap: wrap;
+    #lua{
+      width: 40%;
+    }
+    div img{
+      margin-bottom:55%;
+    }
+  }
+  #carac{
+    margin-top: 30%;
+  }
+  #animais_encontrados{
+    top: 800px;
+  }
+  #bichos{
+    margin-top: 15%;
+    div{
+      width: 40%;
+      left: 0px;
+      font-size: 25px;
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+  #titulo3{
+    h1{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  #ajuda{
+    margin-top: 110%;
+  }
+}
+}
+@media only screen and (min-width:1051px){
+  @media only screen and (max-width:1500px){
+  #texto_banner{
+    width: 100%;
+    bottom: 30px;
+    font-size: 45px;
+  }
+  #banner_direita{
+    width: 29%;
+    top: 20%;
+  }
+  #banner_direita p{
+    font-size: 15px;
+    line-height: 178%; /* 8.9px */
+    letter-spacing: 0.25px;
+  }
+  #lua{
+    width: 20%;
+  }
+  #animais_encontrados{
+    top: 200px;
+  }
+  #ajuda{
+    top: 300px;
+  }
+  }
+}
