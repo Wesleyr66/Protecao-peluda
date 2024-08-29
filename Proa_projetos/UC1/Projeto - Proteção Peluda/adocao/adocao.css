@@ -467,6 +467,7 @@ footer ul{
 }
 
 #footer_logo{
+  z-index: -1;
   justify-content:center;
   display: flex;
   background-color: #390040;
@@ -518,6 +519,7 @@ footer ul{
   font-size: 22px;
   text-align: center;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 .ent {

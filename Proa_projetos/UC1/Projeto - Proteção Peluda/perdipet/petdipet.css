@@ -735,6 +735,7 @@ footer ul{
 }
 
 #footer_logo{
+  z-index: -1;
   bottom: 3px;
   justify-content:center;
   display: flex;

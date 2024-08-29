@@ -303,7 +303,7 @@ button p {
 
 
 /* rodape */
-footer {
+footer{
   margin-top: 100px;
   width: 100%;
   height: auto;
@@ -312,67 +312,61 @@ footer {
   background-color: #390040;
 }
 
-#footer_content {
+#footer_content{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   text-align: left;
 }
 
-.footer_list1,
-.footer_list2,
-#redes_sociais {
+.footer_list1,.footer_list2, #redes_sociais{
   display: flex;
   flex-direction: column;
   list-style: none;
   margin-left: 120px;
 }
 
-.footer_list1,
-.footer_list2 {
+.footer_list1, .footer_list2{
   gap: 20px;
 }
 
-footer ul {
+footer ul{
   justify-content: unset;
 }
 
-.footer_link {
-  color: #fff;
+
+.footer_link{
+  color:#fff;
   opacity: 75%;
   font-size: 18px;
   transition: all 0.4s;
   text-align: left;
 }
 
-.footer_list1,
-.footer_list2,
-.footer_link:hover {
-  color: #ffca50;
+.footer_list1, .footer_list2, .footer_link:hover{
+  color: #FFCA50;
 }
 
-.footer_titulos {
+.footer_titulos{
   left: 0;
   margin-top: 44px;
 }
 
-#redes_sociais {
+#redes_sociais{
   margin-left: 30px;
-  top: 7%;
 }
 
-#redes_sociais .footer_titulos_redes {
+#redes_sociais .footer_titulos_redes{
   color: #fff;
   font-size: 22px;
   left: 22%;
-  top: 20px;
 }
 
-#footer_social_media .footer_link {
-  display: inline;
+#footer_social_media .footer_link{
+  display:inline;
 }
 
-#footer_social_media .footer_link i {
+#footer_social_media .footer_link i{
   font-size: 40px;
   padding: 20px;
   margin-top: 11px;
@@ -383,26 +377,29 @@ footer ul {
   font-size: 22px;
 }
 
-#footer_logo {
-  justify-content: center;
-  width: 100%;
+#footer_logo{
+  z-index: -1;
+  justify-content:center;
   display: flex;
   background-color: #390040;
   text-align: center;
   padding-top: 50px;
 }
 
-#footer_logo img {
+#footer_logo img{
   width: 163.19px;
   margin-bottom: 9px;
 }
 
-#footer_logo p {
+#footer_logo p{
   color: #fff;
   opacity: 80%;
   align-self: center;
   font-size: 16px;
   margin-bottom: 21px;
+}
+#icon{
+  display: none;
 }
 
 .meios_pagamento{
@@ -421,8 +418,12 @@ footer ul {
   text-align: center;
   font-weight: 600;
 }
+
+#redes_sociais{
+  margin-top: 10%;
+}
 #titulo_entrega {
-  padding-top: 4%;
+  padding-top: 1%;
   color: #fff;
   font-size: 22px;
   text-align: center;
@@ -433,6 +434,12 @@ footer ul {
   color: white;
   padding-top: 1%;
   text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#footer_protecao_peluda p{
+  font-weight: 300;
 }
 
 #car {

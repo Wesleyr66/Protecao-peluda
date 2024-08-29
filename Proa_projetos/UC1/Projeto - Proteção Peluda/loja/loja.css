@@ -339,6 +339,7 @@ footer ul {
 }
 
 #footer_logo {
+  z-index: -1;
   justify-content: center;
   width: 100%;
   display: flex;
@@ -351,7 +352,6 @@ footer ul {
   width: 163.19px;
   margin-bottom: 9px;
 }
-
 #footer_logo p {
   color: #fff;
   opacity: 80%;

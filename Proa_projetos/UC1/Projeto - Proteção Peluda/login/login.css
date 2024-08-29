@@ -248,6 +248,7 @@ header {
   }
   
   #footer_logo{
+    z-index: -1;
     justify-content:center;
     display: flex;
     background-color: #390040;
@@ -304,6 +305,11 @@ header {
     padding-top: 1%;
     text-align: center;
     font-size: 15px;
+    font-weight: 400;
+  }
+
+  #footer_protecao_peluda p{
+    font-weight: 300;
   }
   
   #car {
