@@ -1,0 +1,385 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: "Rubik", sans-serif;
+  }
+/* barra de pesquisa */
+header {
+    position: sticky; /* manter barra de pesquisa na tela */
+    top: 0;
+    border-radius: 0px 0px 24px 24px;
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    font-size: 20px;
+    z-index: 2;
+    background-color: #F9EDFF;
+    box-shadow:rgba(0, 0, 0, 0.445) 0px 3px 8px;
+    font-weight: 500;
+  }
+
+  body{
+    background-image: url(Imagens/lg1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  
+  .menu{
+    display: none;
+  }
+  
+  #caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  li.navegacao {
+    top: 25px;
+    margin: 0px 12px 0px 12px;
+  }
+  
+  .navegacao a:hover{
+    color: #840694;
+  }
+  
+  .navegacao a:active {
+    background-color: #840694;
+    color: white;
+  }
+  
+  .navegacao a {
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  #logo {
+    left: 20px;
+    width: 102px;
+    height: 42px;
+    top: 15px;
+  }
+  
+  #login {
+    top: 15px;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 100px;
+    margin: 0px 15px 0px 1px;
+    border-radius: 12px;
+    background-color: #840694;
+    color: #f9edff;
+    transition-duration: 0.5s;
+    a{
+      color: white;
+      text-align: center;
+      font-weight: 700;
+    }
+    a:hover{
+      color: black;
+    }
+  }
+  
+  #login:hover {
+    background-color: #f4b625;
+    color: #341c12;
+    transition: 0.5;
+  }
+  /*login*/
+  #login_page{
+    background-color: #f4b625;
+    width: 440px;
+    height: 390px;
+    margin: auto;
+    border-radius: 24px;
+    margin-top: 10%;
+  }
+  legend {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 149.986%; /* 35.997px */
+    letter-spacing: 1.2px;
+    text-align: center;
+  }
+  #login_form{
+    top: 25px;
+  }
+  fieldset div{
+    margin-top: 5%;
+  }
+  label {
+    width: 100%;
+    font-size: 20px;
+    left: 3%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 149.986%; /* 35.997px */
+    letter-spacing: 1.2px;
+  }
+  input {
+    padding: 15px;
+    left: 1.5%;
+    border-radius: 24px;
+    background-color: #d9d9d9;
+    width: 90%;
+  }
+  #enviar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0% 5% 0%;
+  }
+  #enviar button {
+    width: 90%;
+    background-color: #840694;
+    padding: 20px 0px 20px 0px;
+    border-radius: 12px;
+  }
+
+  #enviar button:hover {
+    background-color: #341c12;
+  }
+  p{
+    color: #f9edff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+  #criar{
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.65px;
+    text-decoration-line: underline;
+  }
+
+ 
+  /*rodape*/
+  footer{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #390040;
+  }
+  
+  #footer_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .footer_list1,.footer_list2, #redes_sociais{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 120px;
+  }
+  
+  .footer_list1, .footer_list2{
+    gap: 20px;
+  }
+  
+  footer ul{
+    justify-content: unset;
+  }
+  
+  
+  .footer_link{
+    color:#fff;
+    opacity: 75%;
+    font-size: 18px;
+    transition: all 0.4s;
+    text-align: left;
+  }
+  
+  .footer_list1, .footer_list2, .footer_link:hover{
+    color: #FFCA50;
+  }
+  
+  .footer_titulos{
+    left: 0;
+    margin-top: 44px;
+  }
+  
+  #redes_sociais{
+    margin-left: 30px;
+  }
+  
+  #redes_sociais .footer_titulos_redes{
+    color: #fff;
+    font-size: 22px;
+    left: 22%;
+  }
+  
+  #footer_social_media .footer_link{
+    display:inline;
+  }
+  
+  #footer_social_media .footer_link i{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 11px;
+  }
+  
+  #footer_content .footer_titulos {
+    color: #fff;
+    font-size: 22px;
+  }
+  
+  #footer_logo{
+    justify-content:center;
+    display: flex;
+    background-color: #390040;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #footer_logo img{
+    width: 163.19px;
+    margin-bottom: 9px;
+  }
+  
+  #footer_logo p{
+    color: #fff;
+    opacity: 80%;
+    align-self: center;
+    font-size: 16px;
+    margin-bottom: 21px;
+  }
+  #icon{
+    display: none;
+  }
+  
+  .meios_pagamento{
+    margin-top: 5%;
+    margin-left: -15px;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    background-color: #390040;
+  }
+  
+  #titulo_pagamento{
+    padding-bottom: 4%;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  #redes_sociais{
+    margin-top: 10%;
+  }
+  #titulo_entrega {
+    padding-top: 1%;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .ent {
+    color: white;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  #car {
+    color: white;
+  }
+  @media only screen and (max-width:1040px) {
+    #icon {
+      display: inline;
+      height: 60%;
+      margin-left: 10px;
+    }
+    body{
+      height: auto;
+    
+    }
+    .menu{
+      display: inline;
+      height: 90%;
+      margin-top: 10px;
+      margin-left: 10px;
+  
+    }
+    header{
+      width: 100%;
+    }
+    #caixa{
+      display: none;
+    }
+    #login{
+      width: 70px;
+      padding: 0;
+      padding-left: 13px;
+      height: 30px;
+    }
+    #login_page{
+      width: 60%;
+      height: 420px;
+    }
+    input{
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width:800px) {
+    #icon {
+      display: inline;
+      height: 60%;
+      margin-left: 10px;
+    }
+    body{
+      height: auto;
+    
+    }
+    .menu{
+      display: inline;
+      height: 90%;
+      margin-top: 10px;
+      margin-left: 10px;
+  
+    }
+    header{
+      width: 100%;
+    }
+    #caixa{
+      display: none;
+    }
+    #login{
+      width: 70px;
+      padding: 0;
+      padding-left: 13px;
+      height: 30px;
+    }
+    #login_page{
+      width: 60%;
+      height: 390px;
+    }
+    input{
+      width: 84%;
+    }
+  }

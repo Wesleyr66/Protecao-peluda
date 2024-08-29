@@ -17,12 +17,10 @@
   }
   /* barra de pesquisa */
   header {
-    width: 80%;
-    position: absolute;
     position: sticky; /* manter barra de pesquisa na tela */
     top: 0;
-    border: black 1px solid;
     border-radius: 0px 0px 24px 24px;
+    width: 80%;
     height: 70px;
     background-color: white;
     margin: auto;
@@ -30,6 +28,11 @@
     z-index: 2;
     background-color: #F9EDFF;
     box-shadow:rgba(0, 0, 0, 0.445) 0px 3px 8px;
+    font-weight: 500;
+  }
+  
+  .menu{
+    display: none;
   }
   
   #caixa {
@@ -65,7 +68,7 @@
   }
   
   #logo {
-    left: 25px;
+    left: 20px;
     width: 102px;
     height: 42px;
     top: 15px;
@@ -73,10 +76,10 @@
   
   #login {
     top: 15px;
-    padding-left: 50px;
+    padding-left: 40px;
     padding-top: 10px;
     width: 100px;
-    margin: 0px 15px 0px 12px;
+    margin: 0px 15px 0px 1px;
     border-radius: 12px;
     background-color: #840694;
     color: #f9edff;
@@ -147,11 +150,12 @@
   }
   #banner_direita p{
     margin: 5% 7% 5% 7%;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 178%;  
     letter-spacing: 0.7px;
+    text-align: center;
   }
 
   /* formulario */
@@ -226,6 +230,7 @@
   }
   #whatsapp{
     width: 100%;
+
   }
   #whatsapp div{
     width: 100%;
@@ -238,6 +243,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom:20px;
+    cursor: pointer;
   }
   #whatsapp2 p{
     color: white;
@@ -250,6 +256,7 @@
   #whatsapp2 div{
     width: 60px;
   }
+
   textarea{
     margin: 0px 40px 50px 0px;
     width: 100%;
@@ -299,6 +306,12 @@
     padding: 30px 30px 30px 30px;
     width: 100%;
     border-radius: 12px;
+    cursor: pointer;
+  }
+
+  #enviar button:hover {
+    background-color: #653623;
+    margin-top: 10px;
   }
   button p{
     color: white;
@@ -343,6 +356,41 @@
     background-color: #F9EDFF;
     width: 90%;
     border-radius: 45px;
+  }
+  #coberto{
+    width: 100%;
+    position: absolute;
+    height: 68%;
+    z-index: 1;
+    border-radius: 20px;
+    background-color: #001E39;
+  }
+  #coberto2{
+    margin-top: 30%;
+    width: 90%;
+    height: 75%;
+    left: 5%;
+    background-color: #001221;
+    font-size: 15px;
+    border-radius: 12px;
+    color: white;
+    div{
+      h5{
+        color: white;
+      }
+      margin: 5px 0px 10px 5px;
+    }
+  }
+  #coberto{
+    opacity: 0;
+  }
+  #lua:hover{
+    #coberto{
+      opacity: 1;
+    }
+    #pe{
+      opacity: 0;
+    }
   }
   #lua h2{
     font-size: 20px;
@@ -598,6 +646,17 @@
       border-radius: 12px;
     }
   }
+
+  textarea {
+    padding: 5px;
+  }
+
+  #ajuda a:hover{
+    background-color: #f4b625;
+    color: black;
+  }
+
+
   /* rodape */
 footer{
   width: 100%;
@@ -629,6 +688,10 @@ footer ul{
   justify-content: unset;
 }
 
+.footer_titulos_redes{
+  margin-left: 8vh;
+}
+
 .footer_link{
   color:#fff;
   opacity: 75%;
@@ -638,7 +701,7 @@ footer ul{
 }
 
 .footer_list1, .footer_list2, .footer_link:hover{
-  color: #FFCA50;
+  color: rgb(49, 38, 13);
 }
 
 .footer_titulos{
@@ -708,12 +771,177 @@ footer ul{
   display: none;
 }
 
+.meios_pagamento{
+  margin-top: 1%;
+  margin-left: -15px;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  background-color: #F4B625;
+}
+
+#titulo_pagamento{
+  padding-bottom: 4%;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+#titulo_entrega {
+  padding-top: 1%;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.ent {
+  color: white;
+  padding-top: 1%;
+  text-align: center;
+}
+
+#car {
+  color: white;
+}
+@media only screen and (max-width:520px){
+
+  #icon {
+    display: inline;
+    height: 60%;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  #login{
+    width: 70px;
+    padding: 0;
+    padding-left: 13px;
+    height: 30px;
+  }
+  #emoji img{
+    width: 30%;
+  }
+  #banner{
+    top: 72px;
+  }
+  #texto_banner{
+    width: 100%;
+    bottom: 25px;
+    font-size: 15px;
+  }
+  #banner_direita{
+    width: 29%;
+    border-radius: 10px;
+  }
+  #banner_direita p{
+    font-size: 5px;
+    line-height: 178%; /* 8.9px */
+    letter-spacing: 0.25px;
+  }
+  #caixa{
+    display: none;
+  }
+  header{
+    width: 100%;
+  } 
+  #texto_form{
+    font-size: 20px;
+    left: 0%;
+    p{
+      font-size: 11px;
+    }
+  }
+  
+  label{
+    font-size: 20px;
+  }
+  #inferior div{
+    width: 90%;
+  }
+  #whatsapp div{
+    width: 100%;
+  }
+  #whatsapp2{
+    img{
+      left: 60%;
+      width: 30px;
+    }
+    p{
+      width: 100%;
+      white-space: nowrap;
+      font-size: 10px;
+    }
+    margin-bottom: 20px;
+  }
+  #titulo1 h1,#titulo2 h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  #p1,#p2{
+    font-size: 12px;
+  }
+  #animais_perdidos{
+    top: 800px;
+  }
+  #cards{
+    margin-top: 15%;
+    flex-wrap: wrap;
+    #lua{
+      width: 80%;
+    #subida{
+      margin-top: 50%;
+    }
+    }
+  }
+  #carac{
+    margin-top: 70%;
+  }
+  #animais_encontrados{
+    top: 800px;
+
+  }
+  #bichos{
+    margin-top: 30%;
+    div{
+      width: 40%;
+      left: 0px;
+      font-size: 12px;
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+  #titulo3{
+    h1{
+      font-size: 20px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  #ajuda{
+    margin-top: 800px;
+    a{
+      width: 50%;
+    }
+  }
+  #redes_sociais{
+    display: none;
+  }
+}
+@media only screen and (min-width:521px){
 @media only screen and (max-width:700px){
   #icon {
     display: inline;
     height: 60%;
     margin-top: 13px;
     margin-left: 10px;
+  }
+  #login{
+    width: 70px;
+    padding: 0;
+    padding-left: 13px;
+    height: 30px;
   }
   #emoji img{
     width: 30%;
@@ -821,13 +1049,29 @@ footer ul{
     display: none;
   }
 }
+}
 @media only screen and (min-width:701px){
   @media only screen and (max-width:1050px){
+    #icon {
+    display: inline;
+    height: 60%;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  #login{
+    width: 70px;
+    padding: 0;
+    padding-left: 13px;
+    height: 30px;
+  }
   #emoji img{
     width: 50%;
   }
   #banner{
     top: 72px;
+  }
+  #caixa{
+    display: none;
   }
   #texto_banner{
     width: 100%;
