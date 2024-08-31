@@ -34,5 +34,5 @@ Ser a plataforma líder em direcionamento para ONGs de adoção de animais, reco
 - Josiane Domingos: https://www.linkedin.com/in/josiane-domingos-3687a222b/
 - Ricardo Ribeiro: https://www.linkedin.com/in/ricardo-ribeiro-a11704191/
 - Vitória Caroline: https://www.linkedin.com/in/vitória-caroline-neves-dos-santos-da-silva-872689260/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-- Mateus Joaquim:
+- Matheus Joaquim: https://www.linkedin.com/in/matheus-joaquim-458674190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
   
