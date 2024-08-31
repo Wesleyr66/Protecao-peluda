@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Proteção Peluda - Projeto da 1º Unidade Curricular do PROPROFISSÃO
 ---
 ### **Missão**
