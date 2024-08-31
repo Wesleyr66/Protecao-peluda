@@ -23,12 +23,12 @@ Ser a plataforma líder em direcionamento para ONGs de adoção de animais, reco
 ![Group 68](https://github.com/user-attachments/assets/ef04908e-66f9-4a4d-a2d4-8ccbdffc0902)
 
  ---
-### **Ferramentas** 
+### **Ferramentas:** 
 
 
 ![ferramentas](https://github.com/user-attachments/assets/5b4fd1a8-45a8-45ec-b4cb-1abb3a5c820b)
 
-### **Autores** 
+### **Autores:** 
 - Isabela Clemente: https://www.linkedin.com/in/isabela-clemente-da-silva/
 - Wesley Rocha: https://www.linkedin.com/in/wesley-rocha-908128321/
 - Josiane Domingos: https://www.linkedin.com/in/josiane-domingos-3687a222b/
