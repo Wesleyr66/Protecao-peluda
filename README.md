@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proteção Peluda - Projeto da 1º Unidade Curricular do PROPROFISSÃO
 ---
 ### **Missão**
@@ -36,3 +37,9 @@ Ser a plataforma líder em direcionamento para ONGs de adoção de animais, reco
 - Vitória Caroline: https://www.linkedin.com/in/vitória-caroline-neves-dos-santos-da-silva-872689260/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 - Matheus Joaquim: https://www.linkedin.com/in/matheus-joaquim-458674190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
   
+=======
+# UC1
+
+ https://wesleyr66.github.io/UC1/Projeto%20-%20Prote%C3%A7%C3%A3o%20Peluda/Home/
+ 
+>>>>>>> c608a0bcc4f0e15aab18f51b2bec8807b063fc97
