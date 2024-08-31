@@ -114,7 +114,6 @@ li.navegacao {
   display: flex;
   height: 500px;
   margin-top: 2.5%;
-  display: flex;
   border-radius: 12px;
   width: 90%;
 }
@@ -129,7 +128,7 @@ li.navegacao {
   font-family: "Rubik", sans-serif;
   border-radius: 12px;
   font-weight: 500;
-  margin-left: 900px;
+  margin-left: 60%;
 }
 
 #bdestaque:hover{
@@ -392,6 +391,13 @@ footer ul {
 
 #car {
   color: white;
+}
+@media only screen and (min-width:1500px) {
+  @media only screen and (max-width:2000px){
+    #destaquedogs{
+      left: 10%;
+    }
+  }
 }
 @media only screen and (max-width:1350px){
   @media only screen and (min-width:1224px){
